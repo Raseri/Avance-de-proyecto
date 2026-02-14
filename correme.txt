@@ -1,0 +1,35 @@
+
+# ⚡ Cómo correr el proyecto (Instrucciones simples)
+
+Sigue estos pasos para arrancar tu proyecto rápidamente:
+
+### 1️⃣ Instalar dependencias (Solo la primera vez)
+Si es la primera vez que lo corres o si moviste carpetas, abre una terminal en la carpeta principal y ejecuta:
+```bash
+npm install
+cd frontend
+npm install
+cd ..
+```
+
+### 2️⃣ Iniciar el Backend (Servidor)
+1. Abre una terminal en la carpeta principal del proyecto.
+2. Escribe el siguiente comando y dale Enter:
+```bash
+npm start
+```
+*Deberías ver un mensaje como: "Servidor corriendo en puerto 3000"*
+
+### 3️⃣ Iniciar el Frontend (Página Web)
+1. Abre **otra** terminal nueva.
+2. Entra a la carpeta del frontend:
+```bash
+cd frontend
+```
+3. Escribe el comando para iniciar:
+```bash
+npm run dev
+```
+4. Abre el link que te aparece (usualmente `http://localhost:5173`) en tu navegador.
+
+¡Listo! 🚀
